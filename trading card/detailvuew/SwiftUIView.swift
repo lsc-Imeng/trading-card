@@ -34,19 +34,23 @@ struct SwiftUIView: View {
                 Image(PlayerImage)
                     .resizable()
                     .frame(width: 200, height:270)
-                
-                HStack {
-                    Spacer()
-                    VStack {
-                        Spacer()
-                        Image("ClipperLogo")
-                            .resizable()
-                            .clipShape(Circle())
-                            .frame(width: 150, height: 150)
-                        
-                        
+                    .overlay {
+                        HStack {
+                            Spacer()
+                            VStack {
+                                Spacer()
+                                Image("ClipperLogo")
+                                    .resizable()
+                                    .clipShape(Circle())
+                                    .frame(width: 100, height: 100)
+                                
+                                
+                            }
+                        }
+                        .padding(5)
                     }
-                }
+                
+               
                 
              
             }
