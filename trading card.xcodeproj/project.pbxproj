@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC3EF44D2B5ED82400D086F9 /* 3dTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3EF44C2B5ED82400D086F9 /* 3dTesting.swift */; };
 		DCD3ADAF2B5AB33F00B48FBA /* trading_cardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3ADAE2B5AB33F00B48FBA /* trading_cardApp.swift */; };
 		DCD3ADB12B5AB33F00B48FBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3ADB02B5AB33F00B48FBA /* ContentView.swift */; };
 		DCD3ADB32B5AB34200B48FBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD3ADB22B5AB34200B48FBA /* Assets.xcassets */; };
 		DCD3ADB62B5AB34200B48FBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD3ADB52B5AB34200B48FBA /* Preview Assets.xcassets */; };
-		DCD3ADC12B5AB5D200B48FBA /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3ADC02B5AB5D200B48FBA /* SwiftUIView.swift */; };
+		DCD3ADC12B5AB5D200B48FBA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3ADC02B5AB5D200B48FBA /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC3EF44C2B5ED82400D086F9 /* 3dTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3dTesting.swift; sourceTree = "<group>"; };
 		DCD3ADAB2B5AB33F00B48FBA /* trading card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trading card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD3ADAE2B5AB33F00B48FBA /* trading_cardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trading_cardApp.swift; sourceTree = "<group>"; };
 		DCD3ADB02B5AB33F00B48FBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DCD3ADB22B5AB34200B48FBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCD3ADB52B5AB34200B48FBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DCD3ADC02B5AB5D200B48FBA /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		DCD3ADC02B5AB5D200B48FBA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +75,8 @@
 		DCD3ADBC2B5AB4FC00B48FBA /* detailvuew */ = {
 			isa = PBXGroup;
 			children = (
-				DCD3ADC02B5AB5D200B48FBA /* SwiftUIView.swift */,
+				DCD3ADC02B5AB5D200B48FBA /* DetailView.swift */,
+				DC3EF44C2B5ED82400D086F9 /* 3dTesting.swift */,
 			);
 			path = detailvuew;
 			sourceTree = "<group>";
@@ -150,7 +153,8 @@
 			files = (
 				DCD3ADB12B5AB33F00B48FBA /* ContentView.swift in Sources */,
 				DCD3ADAF2B5AB33F00B48FBA /* trading_cardApp.swift in Sources */,
-				DCD3ADC12B5AB5D200B48FBA /* SwiftUIView.swift in Sources */,
+				DCD3ADC12B5AB5D200B48FBA /* DetailView.swift in Sources */,
+				DC3EF44D2B5ED82400D086F9 /* 3dTesting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
