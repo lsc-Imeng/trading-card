@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC3EF44D2B5ED82400D086F9 /* 3dTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3EF44C2B5ED82400D086F9 /* 3dTesting.swift */; };
+		DC3EF4512B604B1100D086F9 /* Detailview2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3EF4502B604B1100D086F9 /* Detailview2.swift */; };
+		DC3EF4532B604DF300D086F9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3EF4522B604DF300D086F9 /* ListView.swift */; };
 		DCD3ADAF2B5AB33F00B48FBA /* trading_cardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3ADAE2B5AB33F00B48FBA /* trading_cardApp.swift */; };
 		DCD3ADB12B5AB33F00B48FBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3ADB02B5AB33F00B48FBA /* ContentView.swift */; };
 		DCD3ADB32B5AB34200B48FBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD3ADB22B5AB34200B48FBA /* Assets.xcassets */; };
@@ -16,7 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DC3EF44C2B5ED82400D086F9 /* 3dTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3dTesting.swift; sourceTree = "<group>"; };
+		DC3EF4502B604B1100D086F9 /* Detailview2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detailview2.swift; sourceTree = "<group>"; };
+		DC3EF4522B604DF300D086F9 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		DCD3ADAB2B5AB33F00B48FBA /* trading card.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "trading card.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD3ADAE2B5AB33F00B48FBA /* trading_cardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trading_cardApp.swift; sourceTree = "<group>"; };
 		DCD3ADB02B5AB33F00B48FBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,8 +77,9 @@
 		DCD3ADBC2B5AB4FC00B48FBA /* detailvuew */ = {
 			isa = PBXGroup;
 			children = (
+				DC3EF4522B604DF300D086F9 /* ListView.swift */,
 				DCD3ADC02B5AB5D200B48FBA /* DetailView.swift */,
-				DC3EF44C2B5ED82400D086F9 /* 3dTesting.swift */,
+				DC3EF4502B604B1100D086F9 /* Detailview2.swift */,
 			);
 			path = detailvuew;
 			sourceTree = "<group>";
@@ -152,9 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCD3ADB12B5AB33F00B48FBA /* ContentView.swift in Sources */,
+				DC3EF4512B604B1100D086F9 /* Detailview2.swift in Sources */,
+				DC3EF4532B604DF300D086F9 /* ListView.swift in Sources */,
 				DCD3ADAF2B5AB33F00B48FBA /* trading_cardApp.swift in Sources */,
 				DCD3ADC12B5AB5D200B48FBA /* DetailView.swift in Sources */,
-				DC3EF44D2B5ED82400D086F9 /* 3dTesting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
