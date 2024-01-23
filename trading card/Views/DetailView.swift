@@ -1,19 +1,15 @@
 //
-//  Detailview2.swift
+//  SwiftUIView.swift
 //  trading card
 //
-//  Created by 孟元森 on 2024-01-23.
+//  Created by 孟元森 on 2024-01-19.
 //
 
 import SwiftUI
 
-struct DetailView2: View {
-    let PlayerImage: String
-    let Scored: String
-    let Repond: String
-    let assist: String
-    let Playername: String
-    let PlayerDiscription: String
+struct DetailView: View {
+    
+    let player: TradingCard
     
     
     var body: some View {
@@ -31,7 +27,7 @@ struct DetailView2: View {
                     .foregroundColor(.white)
                     .frame(width: 230, height:300)
                 
-                Image(PlayerImage)
+                Image(player.PlayerImage)
                     .resizable()
                     .frame(width: 200, height:270)
              
@@ -41,7 +37,7 @@ struct DetailView2: View {
                     Spacer()
                     VStack {
                         Spacer()
-                        Image("Heatlogo")
+                        Image("ClipperLogo")
                             .resizable()
                             .clipShape(Circle())
                             .frame(width: 150, height: 150)
@@ -53,27 +49,27 @@ struct DetailView2: View {
             }
             
             VStack {
-                Text("Heat")
+                Text("Clipper")
                     .bold()
                     .padding(.bottom, 5)
                 
                 HStack(spacing:20) {
                     VStack(alignment: .center) {
                         Text("Scored")
-                        Text("26")
+                        Text(player.Scored)
                         VStack(alignment: .center) {
                             Text("Repond")
-                            Text("8")
+                            Text(player.Repond)
                         }
                         VStack (alignment: .center){
                             Text("assist")
-                            Text("8")
+                            Text(player.assist)
                         }
                         VStack(alignment: .center) {
                             Text("Player Description")
                                 .bold()
                                 .padding(.bottom, 5)
-                            Text(PlayerDiscription)
+                            Text(player.PlayerDiscription)
                         }
                     }
                 }
@@ -88,15 +84,9 @@ struct DetailView2: View {
 }
 
 
-
-
-
-
-
-
-
-
-
 #Preview {
-    DetailView2(PlayerImage: "Jimmy", Scored: "26", Repond: "8", assist: "8", Playername: "Jimmy", PlayerDiscription: "Jimmy Butler (born September 14, 1989, Houston, Texas, U.S.) American professional basketball player known for his hard-nosed intensity and standout performances in postseason games. He led the Miami Heat of the National Basketball Association (NBA) to two appearances in the NBA finals (2020 and 2023).")
+    DetailView(player: russel)
+}
+#Preview {
+    DetailView(player: kevin)
 }
