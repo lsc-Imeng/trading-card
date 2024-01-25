@@ -25,21 +25,56 @@ struct ContentView: View {
                 }
                 
                 NavigationLink {
-                    DetailView(player: kevin)
+                    DetailView(
+                        player: kevin
+                    )
                 } label: {
-                    ListView(PlayerName: "kevin", plaerImage: "Kevin", description: "PG")
+                    ListView(
+                        PlayerName: kevin.Playername,
+                        plaerImage: kevin.PlayerImage,
+                        description: "SF"
+                    )
                 }
                 
                 NavigationLink {
-                    DetailView(player: jimmy)
+                    DetailView(
+                        player: jimmy
+                    )
                 } label: {
-                    ListView(PlayerName: "Russel", plaerImage: "Russel", description: "PG")
+                    ListView(
+                        PlayerName: jimmy.Playername,
+                        plaerImage: jimmy.PlayerImage,
+                        description: "SF"
+                    )
                 }
+                
+                NavigationLink {
+                    DetailView(
+                        player: Ber
+                    )
+                } label: {
+                    ListView(
+                        PlayerName: Ber.Playername,
+                        plaerImage: Ber.PlayerImage,
+                        description: "FG"
+                    )
+                }
+                NavigationLink {
+                    DetailView(
+                        player: Myers
+                    )
+                } label: {
+                    ListView(
+                        PlayerName: Myers.Playername,
+                        plaerImage: Myers.PlayerImage,
+                        description: "PF"
+                    )
+                }
+                
+                .navigationTitle("Trading Cards")
+                
             }
-            .navigationTitle("Trading Cards")
-            
         }
-
         
         
     }

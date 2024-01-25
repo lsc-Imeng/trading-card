@@ -90,3 +90,11 @@ struct DetailView: View {
 #Preview {
     DetailView(player: kevin)
 }
+#Preview {
+    DetailView(player: jimmy)
+}
+#Preview{
+    DetailView(player: Ber)
+}
+
+
